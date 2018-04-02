@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>justMovies</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Prompt:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Prompt" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"> </script>
+</head>
+
+
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="close" data-dismiss="modal" aria-hidden="true">
+            <img src="images/close.png"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container"></div>
+          <div class="modalImage">
+            <div class="movie-image"></div>
+            <div class="container">
+                <img src="" class="movie-poster">
+                <h2 class="movie-title"></h2>
+                <p class="movie-overview"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+        <div class="container ">
+            <a class="navbar-brand logoTitle" href="#">
+                <img src="images/justMovies.png" class="logo"  class="d-inline-block align-top" alt="Site logo">
+                &nbsp; justMovies <span class="hidden-sm-down">best dramas of the past 3 years</span>
+            </a>
+            
+        </div>
+    </nav>
+    </br>
+    <div class="container">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="417820" data-movie-title="Miss Saigon: 25th Anniversary" data-backdrop-path="https://image.tmdb.org/t/p/w780/hPqO7q2Bss2rqVq5wQX2wEvpUEI.jpg" data-poster="https://image.tmdb.org/t/p/w500/ty9X5o0D30BRIVIOHVstPfESXaB.jpg" data-overview="The 25th Anniversary performance – filmed at London's Prince Edward Theatre in 2014 – of the epic musical tale of a young Vietnamese bar girl, Kim, who falls in love with Chris, an American GI.  But their lives are torn apart by the fall of Saigon." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/hPqO7q2Bss2rqVq5wQX2wEvpUEI.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Miss Saigon: 25th Anniversary</h4>
+            <p class="watchTrailer" class="card-text">The 25th Anniversary performance – filmed at London's Prince Edward Theatre in 2014 – of the epic musical tale of a young Vietnamese bar girl, Kim, who falls in love with Chris, an American GI.  But their lives are torn apart by the fall of Saigon.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="476673" data-movie-title="Snow Steam Iron" data-backdrop-path="https://image.tmdb.org/t/p/w780/bCvQY9SVf7EBi1XdynR0yDWvsBp.jpg" data-poster="https://image.tmdb.org/t/p/w500/prOqij7QnApiEueGAWUeaRZsihe.jpg" data-overview="“Snow gently falls on the blood-stained streets of a seedy out-of-time New York City. Steam envelopes the nightmare unfolding within its narrow alleys. Iron is the will of the one who would dare to resist… fight… survive.”" data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/bCvQY9SVf7EBi1XdynR0yDWvsBp.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Snow Steam Iron</h4>
+            <p class="watchTrailer" class="card-text">“Snow gently falls on the blood-stained streets of a seedy out-of-time New York City. Steam envelopes the nightmare unfolding within its narrow alleys. Iron is the will of the one who would dare to resist… fight… survive.”</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="495151" data-movie-title="Doctor Who: Il tait deux fois" data-backdrop-path="https://image.tmdb.org/t/p/w780/pvLCw9rNXHn5hkHKe4h6iDupwQD.jpg" data-poster="https://image.tmdb.org/t/p/w500/lyJzCfbTlzSkaXWqFd0SffeRH2R.jpg" data-overview="A British Army Captain is plucked from the trenches of WWI in the final chapter of the 12th Doctor’s story, in which the Time Lord must face his past to decide his future." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/pvLCw9rNXHn5hkHKe4h6iDupwQD.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Doctor Who: Il tait deux fois</h4>
+            <p class="watchTrailer" class="card-text">A British Army Captain is plucked from the trenches of WWI in the final chapter of the 12th Doctor’s story, in which the Time Lord must face his past to decide his future.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="427008" data-movie-title="The Mountain II" data-backdrop-path="https://image.tmdb.org/t/p/w780/ujfg5X36JZiefBRHf7auyChQJIk.jpg" data-poster="https://image.tmdb.org/t/p/w500/zlUgdj90WoRoOYokRKNWnWYbINV.jpg" data-overview="In a desolate war zone where screams of the innocent echo, on the very line between disaster and valor, 7 Maroon Berets will dance with death." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/ujfg5X36JZiefBRHf7auyChQJIk.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">The Mountain II</h4>
+            <p class="watchTrailer" class="card-text">In a desolate war zone where screams of the innocent echo, on the very line between disaster and valor, 7 Maroon Berets will dance with death.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="470360" data-movie-title="Breaking the Limits" data-backdrop-path="https://image.tmdb.org/t/p/w780/7yTxblK0mLcRGswkvn2UnnleUs3.jpg" data-poster="https://image.tmdb.org/t/p/w500/okqbuPEUUD22gwRRYYAKbqV72Rq.jpg" data-overview="Based on true events. In 1980s Poland, Jerzy Górski is a young man who finds the determination to struggle against his drug addiction through athletic training, with the aim of competing in the US Ironman Triathlon." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/7yTxblK0mLcRGswkvn2UnnleUs3.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Breaking the Limits</h4>
+            <p class="watchTrailer" class="card-text">Based on true events. In 1980s Poland, Jerzy Górski is a young man who finds the determination to struggle against his drug addiction through athletic training, with the aim of competing in the US Ironman Triathlon.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="372058" data-movie-title="Your Name." data-backdrop-path="https://image.tmdb.org/t/p/w780/6vkhRvsRvWpmaRVyCXaxTkIEb7j.jpg" data-poster="https://image.tmdb.org/t/p/w500/xq1Ugd62d23K2knRUx6xxuALTZB.jpg" data-overview="High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/6vkhRvsRvWpmaRVyCXaxTkIEb7j.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Your Name.</h4>
+            <p class="watchTrailer" class="card-text">High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="456287" data-movie-title="Mersal" data-backdrop-path="https://image.tmdb.org/t/p/w780/zHodxiTrPTFaruQtsm7FgYXamEK.jpg" data-poster="https://image.tmdb.org/t/p/w500/65Q1wpRPZ5E3UVUv2V5JBbJQCcj.jpg" data-overview="A few individuals in the medical profession are murdered or kidnapped, and the cop investigating the case suspects a doctor and arrests him. But is he the one who is behind these crimes? And why are they being committed?" data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/zHodxiTrPTFaruQtsm7FgYXamEK.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Mersal</h4>
+            <p class="watchTrailer" class="card-text">A few individuals in the medical profession are murdered or kidnapped, and the cop investigating the case suspects a doctor and arrests him. But is he the one who is behind these crimes? And why are they being committed?</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="444218" data-movie-title="Three Seconds" data-backdrop-path="https://image.tmdb.org/t/p/w780/iubDoM6v2EA4TOSNPittsTPQ5Em.jpg" data-poster="https://image.tmdb.org/t/p/w500/hDjeXwEei6LHdzBnZuK2QBGAqMG.jpg" data-overview="The story is set at the 1972 Munich Olympics where the U.S. team lost the basketball championship for the first time in 36 years. The final moments of the final game have become one of the most controversial events in Olympic history. With play tied, the score table horn sounded during a second free throw attempt that put the U.S. ahead by one. But the Soviets claimed they had called for a time out before the basket and confusion ensued. The clock was set back by three seconds twice in a row and the Russians finally prevailed at the very last. The U.S. protested, but a jury decided in the USSR’s favor and Team USA voted unanimously to refuse its silver medals. The Soviet players have been treated as heroes at home." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/iubDoM6v2EA4TOSNPittsTPQ5Em.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Three Seconds</h4>
+            <p class="watchTrailer" class="card-text">The story is set at the 1972 Munich Olympics where the U.S. team lost the basketball championship for the first time in 36 years. The final moments of the final game have become one of the most controversial events in Olympic history. With play tied, the score table horn sounded during a second free throw attempt that put the U.S. ahead by one. But the Soviets claimed they had called for a time out before the basket and confusion ensued. The clock was set back by three seconds twice in a row and the Russians finally prevailed at the very last. The U.S. protested, but a jury decided in the USSR’s favor and Team USA voted unanimously to refuse its silver medals. The Soviet players have been treated as heroes at home.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="414523" data-movie-title="Dhuruvangal Pathinaaru" data-backdrop-path="https://image.tmdb.org/t/p/w780/qZ8RzOQF1Vnh9M4GYB24datB9Pb.jpg" data-poster="https://image.tmdb.org/t/p/w500/ojtEKg6m5scSGL5cw8RDVlmc9Nj.jpg" data-overview="A former cop looks back on the case which left him disabled and forced him to quit the force." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/qZ8RzOQF1Vnh9M4GYB24datB9Pb.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Dhuruvangal Pathinaaru</h4>
+            <p class="watchTrailer" class="card-text">A former cop looks back on the case which left him disabled and forced him to quit the force.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="475756" data-movie-title="Entre Irms" data-backdrop-path="https://image.tmdb.org/t/p/w780/oaNKsv6i9TKGisp1H4FuBlAYFSn.jpg" data-poster="https://image.tmdb.org/t/p/w500/fYFYolqs7o41Qo3NvsU6LGOIpli.jpg" data-overview="In the thirties, two sisters separated by fate face prejudice and sexism, one by the high society in a big city and the other by a group of renegades in the countryside. Despite the distance, they know that they can only count on each other and both of them will assert themselves in their own and surprising way." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/oaNKsv6i9TKGisp1H4FuBlAYFSn.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Entre Irms</h4>
+            <p class="watchTrailer" class="card-text">In the thirties, two sisters separated by fate face prejudice and sexism, one by the high society in a big city and the other by a group of renegades in the countryside. Despite the distance, they know that they can only count on each other and both of them will assert themselves in their own and surprising way.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="348675" data-movie-title="The Day Will Come" data-backdrop-path="https://image.tmdb.org/t/p/w780/w7WwDym4Zz8sYYT4qgzP2jauQcE.jpg" data-poster="https://image.tmdb.org/t/p/w500/dmSMWLXa2Td4bHmMh2Uuiqbbrsh.jpg" data-overview="Set in the blooming 1960s, the film centres around two young brothers who are instantly robbed of their lives when they are placed in a boy's home forgotten by time. Armed only with a vivid imagination and a fickle hope, the boys engage in the frightening battle against Headmaster Heck and his lethal tyranny. The film is based on actual events." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/w7WwDym4Zz8sYYT4qgzP2jauQcE.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">The Day Will Come</h4>
+            <p class="watchTrailer" class="card-text">Set in the blooming 1960s, the film centres around two young brothers who are instantly robbed of their lives when they are placed in a boy's home forgotten by time. Armed only with a vivid imagination and a fickle hope, the boys engage in the frightening battle against Headmaster Heck and his lethal tyranny. The film is based on actual events.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="449176" data-movie-title="Love, Simon" data-backdrop-path="https://image.tmdb.org/t/p/w780/vTmHn4nm3wlshGepK6annGCKRFT.jpg" data-poster="https://image.tmdb.org/t/p/w500/5YUYg5q7QfC4IoNwNUtiwdiYKPr.jpg" data-overview="Everyone deserves a great love story. But for seventeen-year old Simon Spier it’s a little more complicated: he’s yet to tell his family or friends he’s gay and he doesn’t actually know the identity of the anonymous classmate he’s fallen for online." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/vTmHn4nm3wlshGepK6annGCKRFT.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Love, Simon</h4>
+            <p class="watchTrailer" class="card-text">Everyone deserves a great love story. But for seventeen-year old Simon Spier it’s a little more complicated: he’s yet to tell his family or friends he’s gay and he doesn’t actually know the identity of the anonymous classmate he’s fallen for online.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="378064" data-movie-title="A Silent Voice" data-backdrop-path="https://image.tmdb.org/t/p/w780/lp1TIgwmhrvhktah74MsfZruWpp.jpg" data-poster="https://image.tmdb.org/t/p/w500/drlyoSKDOPnxzJFrRWGqzDsyJvR.jpg" data-overview="Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues, the rest of the class starts to turn on Shouya for his lack of compassion. When they leave elementary school, Shouko and Shouya do not speak to each other again... until an older, wiser Shouya, tormented by his past behaviour, decides he must see Shouko once more. He wants to atone for his sins, but is it already too late...?" data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/lp1TIgwmhrvhktah74MsfZruWpp.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">A Silent Voice</h4>
+            <p class="watchTrailer" class="card-text">Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues, the rest of the class starts to turn on Shouya for his lack of compassion. When they leave elementary school, Shouko and Shouya do not speak to each other again... until an older, wiser Shouya, tormented by his past behaviour, decides he must see Shouko once more. He wants to atone for his sins, but is it already too late...?</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="339877" data-movie-title="Loving Vincent" data-backdrop-path="https://image.tmdb.org/t/p/w780/vRejuzhA14eu6JwY1p8xX5Dln0y.jpg" data-poster="https://image.tmdb.org/t/p/w500/qlrhwUDe7YOZujAYanK6ij2vbY5.jpg" data-overview="The film brings the paintings of Vincent van Gogh to life to tell his remarkable story. Every one of the 65,000 frames of the film is an oil-painting hand-painted by 125 professional oil-painters who travelled from all across the world to the Loving Vincent studios in Poland and Greece to be a part of the production. As remarkable as Vincent’s brilliant paintings are his passionate and ill-fated life and mysterious death." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/vRejuzhA14eu6JwY1p8xX5Dln0y.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Loving Vincent</h4>
+            <p class="watchTrailer" class="card-text">The film brings the paintings of Vincent van Gogh to life to tell his remarkable story. Every one of the 65,000 frames of the film is an oil-painting hand-painted by 125 professional oil-painters who travelled from all across the world to the Loving Vincent studios in Poland and Greece to be a part of the production. As remarkable as Vincent’s brilliant paintings are his passionate and ill-fated life and mysterious death.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="432517" data-movie-title="Sherlock: The Final Problem" data-backdrop-path="https://image.tmdb.org/t/p/w780/3nXbWFPFGvjSE5bw8G6bBLVIzow.jpg" data-poster="https://image.tmdb.org/t/p/w500/ySiqbi1sW7imVYbtECZS0xQ3Hmj.jpg" data-overview="Long buried secrets finally come to light as someone has been playing a very long game indeed. Sherlock and John face their greatest ever challenge. Is the game finally over?" data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/3nXbWFPFGvjSE5bw8G6bBLVIzow.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Sherlock: The Final Problem</h4>
+            <p class="watchTrailer" class="card-text">Long buried secrets finally come to light as someone has been playing a very long game indeed. Sherlock and John face their greatest ever challenge. Is the game finally over?</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="437068" data-movie-title="A Taxi Driver" data-backdrop-path="https://image.tmdb.org/t/p/w780/s1oSLpSEBLnfWcNlO3SD0K7Nvdm.jpg" data-poster="https://image.tmdb.org/t/p/w500/QbkBqgBc6TCufd0ThoGdUhlE3V.jpg" data-overview="May, 1980. Man-seob (SONG Kang-ho) is a taxi driver in Seoul who lives from hand to mouth, raising his young daughter alone. One day, he hears that there is a foreigner who will pay big money for a drive down to Gwangju city. Not knowing that he’s a German journalist with a hidden agenda, Man-seob takes the job." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/s1oSLpSEBLnfWcNlO3SD0K7Nvdm.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">A Taxi Driver</h4>
+            <p class="watchTrailer" class="card-text">May, 1980. Man-seob (SONG Kang-ho) is a taxi driver in Seoul who lives from hand to mouth, raising his young daughter alone. One day, he hears that there is a foreigner who will pay big money for a drive down to Gwangju city. Not knowing that he’s a German journalist with a hidden agenda, Man-seob takes the job.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="426166" data-movie-title="My Annoying Brother" data-backdrop-path="https://image.tmdb.org/t/p/w780/xrTpw8RcOkZwyttbsJvUJxnMGO7.jpg" data-poster="https://image.tmdb.org/t/p/w500/sORyLJbXTs2ryK9R2cnrk8TC1eC.jpg" data-overview="Doo-Sik (Jo Jung-suk) gets paroled from prison thanks to his younger brother (Do Kyung-Soo) Doo-Young. Doo-Young is a promising judo athlete. After 15 years, Doo-Sik (Jo Jung-suk) suddenly appears in front of Doo-Young and they begin to live together. Doo-Young becomes involved in an accident before the selection for the national team." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/xrTpw8RcOkZwyttbsJvUJxnMGO7.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">My Annoying Brother</h4>
+            <p class="watchTrailer" class="card-text">Doo-Sik (Jo Jung-suk) gets paroled from prison thanks to his younger brother (Do Kyung-Soo) Doo-Young. Doo-Young is a promising judo athlete. After 15 years, Doo-Sik (Jo Jung-suk) suddenly appears in front of Doo-Young and they begin to live together. Doo-Young becomes involved in an accident before the selection for the national team.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="398818" data-movie-title="Call Me by Your Name" data-backdrop-path="https://image.tmdb.org/t/p/w780/vABQeCuuagIjir0YBAfL0V2XePn.jpg" data-poster="https://image.tmdb.org/t/p/w500/nPTjj6ZfBXXBwOhd7iUy6tyuKWt.jpg" data-overview="Elio Perlman is spending the summer with his family at their vacation home in Lombardy, Italy. When his father hires a handsome doctoral student, the curious 17-year-old finds himself developing a growing attraction to the young man." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/vABQeCuuagIjir0YBAfL0V2XePn.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Call Me by Your Name</h4>
+            <p class="watchTrailer" class="card-text">Elio Perlman is spending the summer with his family at their vacation home in Lombardy, Italy. When his father hires a handsome doctoral student, the curious 17-year-old finds himself developing a growing attraction to the young man.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="395815" data-movie-title="Hepta: The Last Lecture" data-backdrop-path="https://image.tmdb.org/t/p/w780/6gl320Di1IuYEchq7DLMD3Dxs0X.jpg" data-poster="https://image.tmdb.org/t/p/w500/sKAfFMWmZpQgvul25JMQcdTeruR.jpg" data-overview="Based on the  best-selling novel of the same title.  Dr. Shukri Mokhtar is a renowned social psychology specialist, best known for his ability to answer the simplest questions, who decides to give one last lecture about the very simple question: "how do we love?"  He gives a full description of the different stages of love by recounting four different love stories going through curves and various crises." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/6gl320Di1IuYEchq7DLMD3Dxs0X.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Hepta: The Last Lecture</h4>
+            <p class="watchTrailer" class="card-text">Based on the  best-selling novel of the same title.  Dr. Shukri Mokhtar is a renowned social psychology specialist, best known for his ability to answer the simplest questions, who decides to give one last lecture about the very simple question: "how do we love?"  He gives a full description of the different stages of love by recounting four different love stories going through curves and various crises.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center cardBorder" data-tmdb-id="429765" data-movie-title="Dance Academy: The Movie" data-backdrop-path="https://image.tmdb.org/t/p/w780/2JTnzY6JvIDpBggRJndcNhpL8nJ.jpg" data-poster="https://image.tmdb.org/t/p/w500/12AX9SwdPelVw2KKgy9NfvP298N.jpg" data-overview="This 2017 movie follows the original dance academy TV show and tracks where the characters are in their lives now." data-toggle="modal" data-target="#trailer">
+    <div class="card">
+        <img src="https://image.tmdb.org/t/p/w780/2JTnzY6JvIDpBggRJndcNhpL8nJ.jpg" width="100%" alt="Image">
+        <div class="title">
+            <h4 class="card-title">Dance Academy: The Movie</h4>
+            <p class="watchTrailer" class="card-text">This 2017 movie follows the original dance academy TV show and tracks where the characters are in their lives now.</p> 
+            <a href="#" class="btn btn-primary">Trailer</a> 
+        </div>
+    </div>
+</div>
+
+    </div>
+  
+    
+    
+ 
+  </body>
+</html>
