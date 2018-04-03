@@ -1,4 +1,11 @@
-// Pause the video when the modal is closed
+// Animate in the movies when the page loads
+$(document).ready(function () {
+	$('.movie-tile').hide().first().show("medium", function showNext() {
+		$(this).next("div").show("medium", showNext);
+	});
+});
+
+// Stop the video when the modal is closed
 $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
 	// Remove the src so the player itself gets removed, as this is the only
 	// reliable way to ensure the video stops playing in IE
@@ -37,11 +44,5 @@ $(document).on('click', '.movie-tile', function (event) {
 		} else {
 			$("#trailer-video-container").empty().html("Uh oh. The API doesn't have this trailer yet.");
 		}
-	});
-});
-// Animate in the movies when the page loads
-$(document).ready(function () {
-	$('.movie-tile').hide().first().show("medium", function showNext() {
-		$(this).next("div").show("medium", showNext);
 	});
 });

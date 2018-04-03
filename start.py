@@ -12,7 +12,7 @@ def create_movies(settings):
     This function calls The Movie Database for the best drama's that are between the
     today's date and the date as of 3 years ago. It turns the json results
     into Movie instances and returns an array of the movies created.
-    Args:
+    Arguments:
         settings: An object of settings for TMDB image sizes
     Returns:
         movies: An array of Movie instances.
@@ -34,14 +34,14 @@ def create_movies(settings):
                             settings['backdrop_sizes'][1] +
                             item['backdrop_path'])
         else:
-            backdrop_url = 'popcorn.jpg'
+            backdrop_url = 'images/poster.png'
 
         if item['poster_path'] is not None:
             image_url = (settings['secure_base_url'] +
                          settings['poster_sizes'][4] +
                          item['poster_path'])
         else:
-            image_url = 'poster.jpg'
+            image_url = 'images/poster.png'
 
         movie = media.Movie(item['title'], image_url, "test", item['overview'],
                             i, item['id'], backdrop_url)
@@ -52,7 +52,7 @@ def create_movies(settings):
 
 def create_site(settings):
     """ Creates movies and launches the website.
-    Args:
+    Arguments:
         settings: image settings to pass to the create_movies function
     """
 
