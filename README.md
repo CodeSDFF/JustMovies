@@ -2,6 +2,7 @@
 
 A Movie Trailer Website where users can watch the trailers of the best dramas that are between the
     today's date and the date as of 3 years ago.
+    ![picture](images/justMoviesScreen.png)
  
 ### Primary Objectives
 - [x] Dynamically generated from a Python data structure.
