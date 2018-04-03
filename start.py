@@ -63,8 +63,7 @@ def create_site(settings):
 def get_image_settings():
     """ Gets the image settings defined by The Movie Database API.
     Returns:
-        An object for various settings for image sizes. For more
-        information on why this is necessary, please refer to
+        An object for various settings for image sizes.
     """
 
     config_url = "https://api.themoviedb.org/3/configuration?api_key="+API_KEY
@@ -74,7 +73,7 @@ def get_image_settings():
 
 
 def get_three_years_ago_url_param():
-    """ This function gets the date 31 days ago and then formats it so it can
+    """ This function gets the date 720 days ago and then formats it so it can
     be used as a URL query string parameter.
     Returns:
         A string in the format "2018-12-31"
