@@ -58,7 +58,11 @@ MAIN_PAGE_CONTENT = '''
     <div class="container">
       {movie_tiles}
     </div>
-  
+    <footer>
+        <div class="content">
+            <div class="rights">copyright &copy; 2018 <a href = "http://irinaserova.com/">Irina Serova</a></div>
+        </div>  
+    </footer>
     
     
  
