@@ -1,7 +1,24 @@
+/***************************
+****************************
+        Basic styles
+****************************
+***************************/
 body {
 	padding-top: 70px;
 	font-family: 'Prompt', sans-serif;
 	background-color: #D1D1D1;
+}
+/***************************
+        Navbar styles
+***************************/
+.logoTitle {
+	font-family: 'Fredoka One', cursive;
+	font-size: 2em;
+}
+
+.logo {
+	width: 50px;
+	height: auto;
 }
 
 span {
@@ -9,6 +26,9 @@ span {
 	font-style: italic;
 	font-size: 0.5em;
 }
+/***************************
+ Trailer Video Modal styles
+***************************/
 
 .movie-image {
 	opacity: 0.2;
@@ -17,6 +37,9 @@ span {
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+.modalImage {
+	position: relative;
 }
 
 .movie-title {
@@ -33,14 +56,8 @@ span {
 	margin: 10px;
 }
 
-.logoTitle {
-	font-family: 'Fredoka One', cursive;
-	font-size: 2em;
-}
-
 .close {
 	position: absolute;
-
 	top: -12px;
 	right: -12px;
 	z-index: 9001;
@@ -71,6 +88,9 @@ span {
 	background-color: white;
 }
 
+/***************************
+        Cards styles
+***************************/
 .title {
 	position: absolute;
 	bottom: 0;
@@ -83,15 +103,6 @@ span {
 .watchTrailer {
 	height: 50px;
 	overflow: hidden;
-}
-
-.modalImage {
-	position: relative;
-}
-
-.logo {
-	width: 50px;
-	height: auto;
 }
 
 .btn-primary {
