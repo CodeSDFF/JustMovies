@@ -41,11 +41,10 @@ $(document).on('click', '.movie-tile', function (event) {
 				'src': sourceUrl,
 				'frameborder': 0
 			}));
-			$( "#trailer-video-container" ).removeClass( "bottom" );
+			$("#trailer-video-container").removeClass("bottom");
 		} else {
-
 			$("#trailer-video-container").empty().html('<div class="container"><div class="row center"><h3>Sorry. The API does not have this trailer yet..</h3><img src="images/poster.png" alt="poster"></div></div>');
-		$("#trailer-video-container").addClass("bottom");
+		    $("#trailer-video-container").addClass("bottom");
 		}
 	});
 });
