@@ -123,7 +123,20 @@ span {
 	border: 2px solid #F7F3E3;
 	border-radius: 5px;
 }
-
+/***************************
+    Video-container styles
+***************************/
+.bottom {
+padding-bottom: 1%;
+}
+.center {
+padding: 4em 5em 0;
+text-align: center;
+}
+.center img {
+float:right;
+width: 20%;
+}
 /***************************
        Footer styles
 ***************************/
